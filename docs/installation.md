@@ -8,42 +8,94 @@ THEA-GS is an  open-source digital contact tracing system that was born out of t
 The tool is designed to combine anonymized time-stamped geo-location information relative to the road infrastructure with COVID-19 test results to support public health efforts to limit transmission and the safe reopening of economies.
 
 
-## Getting Started
+## Requirements
 
-Get started by **creating a new site**.
+The minimum requirement for this project is your Web server supports PHP 7.3.0 and you have 
+Node.js a javascript runtime environment installed locally on your computer. 
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Installation steps
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Install via Git 
 
-## Generate a new site
+Clone the repo locally:
 
-Generate a new Docusaurus site using the **classic template**.
+```sh
+git clone https://github.com/project-thea/project-thea-server.git
 
-The classic template will automatically be added to your project after you run the command:
+cd project-thea-api
 
-```bash
-npm init docusaurus@latest my-website classic
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Install PHP dependencies:
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
+```sh
+composer install
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+### Install NPM dependencies:
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+```sh
+npm install
+```
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+### Build assets: 
+
+```sh
+npm run dev
+```
+
+CONFIGURATION
+------------
+
+### Setup configuration:
+
+```sh
+cp .env.example .env
+```
+
+### Generate application key:
+
+```sh
+php artisan key:generate
+```
+
+### Create a database:
+
+```sql
+CREATE DATABASE DB_DATABASE;
+```
+
+### Update .env with database details:
+
+```sh
+DB_CONNECTION=<DB_CONNECTION>
+DB_HOST=<DB_HOST>
+DB_PORT=<DB_PORT>
+DB_DATABASE=<DB_DATABASE>
+DB_USERNAME=<DB_USERNAME>
+DB_PASSWORD=<DB_PASSWORD>
+```
+
+### Run database migrations:
+
+```sh
+php artisan migrate
+```
+
+### Run database seeders:
+
+```sh
+php artisan db:seed
+```
+
+### Start instance of Valhalla
+
+Start an instance of the Valhalla service and update the  VALHALLA_HOST environment variable in the 
+.env file
+
+### Run development server:
+
+```sh
+php artisan serve
+```
