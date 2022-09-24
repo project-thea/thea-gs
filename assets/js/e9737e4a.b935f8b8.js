@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthea_gs=self.webpackChunkthea_gs||[]).push([[9156],{8106:a=>{a.exports=JSON.parse('{"label":"thea-gs","permalink":"/thea-gs/blog/tags/thea-gs","allTagsPath":"/thea-gs/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthea_gs=self.webpackChunkthea_gs||[]).push([[5161],{4129:e=>{e.exports=JSON.parse('{"permalink":"/thea-gs/blog/tags/release","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
