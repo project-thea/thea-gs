@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Subject Tracking',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_map_dark_re_36sy.svg').default,
     description: (
       <>
         THEA-GS only tracks subjects as they move on road network. 
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Exposure notification',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_reminders_re_gtyb.svg').default,
     description: (
       <>
         THEA-GS detects, reports , and notifies subjects that are exposed to a pandemic. In addition, 
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Infection rate detection',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_growing_re_olpi.svg').default,
     description: (
       <>
         Automatically detects the infection of diseases and notifies public health officials
@@ -43,7 +43,7 @@ const FeatureList = [
   },
   {
     title: 'Web Access',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_progressive_app_m-9-ms.svg').default,
     description: (
       <>
         Intuitive web user interface for management and access to analysis results.
@@ -52,7 +52,7 @@ const FeatureList = [
   },
   {
     title: 'Security',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_safe_re_kiil.svg').default,
     description: (
       <>
         Security of subject data is maintained through encryption of key information, access logs, and geo-fencing.

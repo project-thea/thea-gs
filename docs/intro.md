@@ -5,7 +5,8 @@ sidebar_position: 1
 # Introduction
 
 THEA-GS is an  open-source digital contact tracing system that was born out of the [Project-THEA](https://project-thea.org/) whose focus was  the haulage industry. 
-The tool is designed to combine anonymized time-stamped geo-location information relative to the road infrastructure with COVID-19 test results to support public health efforts to limit transmission and the safe reopening of economies.
+The tool is designed to combine anonymized time-stamped geo-location information relative to the road infrastructure with COVID-19 test results to support public health efforts to limit transmission and the safe reopening of economies. 
+The platform is made of the mobile for tracking drivers and the server where all the processing is done.
 
 # Quick installation
 The THEA-Server can be started by using docker containers.
