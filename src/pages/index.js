@@ -36,7 +36,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title} - Open Source Digital Contact Tracing`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Subject Tracking',
+    title: 'Haulage Tracking',
     Svg: require('@site/static/img/undraw_map_dark_re_36sy.svg').default,
     description: (
       <>
-        THEA-GS only tracks subjects as they move on road network. 
+        THEA-GS is targeted digital contact tracing for haulage. It is tracking is restricted   to road network 
       </>
     ),
   },
@@ -17,27 +17,28 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_reminders_re_gtyb.svg').default,
     description: (
       <>
-        THEA-GS detects, reports , and notifies subjects that are exposed to a pandemic. In addition, 
-		it detects hotspots.
+        THEA-GS detects, assess risk and notifies haulage drivers. The system provides a risk map of the road network
+.
 		
       </>
     ),
   },
   {
-    title: 'Infection rate detection',
+    title: 'Epidemiological parameters',
     Svg: require('@site/static/img/undraw_growing_re_olpi.svg').default,
     description: (
       <>
-        Automatically detects the infection of diseases and notifies public health officials
+        THEA-GS intelligently process the large datasets to derive critical epidemiological parameters such as transmission rate, positive predictive values
       </>
     ),
   },
   {
-    title: 'Easy integration',
+    title: 'Interoperability',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        THEA-GS easily integrates with existing systems to collect extra data to enrich analysis.
+        THEA-GS easily integrates with existing laboratory information systems as well as national public health digital infrastructure
+
       </>
     ),
   },
@@ -46,7 +47,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_progressive_app_m-9-ms.svg').default,
     description: (
       <>
-        Intuitive web user interface for management and access to analysis results.
+        THEA-GS has an intuitive web user interface for management of the system by public health
       </>
     ),
   },
@@ -55,7 +56,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_safe_re_kiil.svg').default,
     description: (
       <>
-        Security of subject data is maintained through encryption of key information, access logs, and geo-fencing.
+        THEA-GS has been developed in consultation with stakeholders therefore it embodies security feature tailored to the sector
       </>
     ),
   },
