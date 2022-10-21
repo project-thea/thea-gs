@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_map_dark_re_36sy.svg').default,
     description: (
       <>
-        THEA-GS is targeted digital contact tracing for haulage. It is tracking is restricted   to road network 
+        THEA-GS is targeted digital contact tracing for haulage. Its tracking is restricted   to road network 
       </>
     ),
   },
@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_growing_re_olpi.svg').default,
     description: (
       <>
-        THEA-GS intelligently process the large datasets to derive critical epidemiological parameters such as transmission rate, positive predictive values
+        THEA-GS intelligently process large datasets to derive critical epidemiological parameters such as transmission rate, positive predictive values
       </>
     ),
   },
